@@ -2,6 +2,8 @@
 Visit the link:
 ##### https://tensorforummair.000webhostapp.com/
 
+Sorry for the server speed as it was the only one avaliable for free ;-)
+
 Made With HTML , Javascript and Tensorflow JS 
 
 ### Why Javascript?
