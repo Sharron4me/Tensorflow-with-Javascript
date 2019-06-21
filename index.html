@@ -1,18 +1,33 @@
-</<!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en" dir="ltr">
     <head>
       <meta charset="utf-8">
-      <title></title>
+      <title>TensorFlow PlayGround With Ummair</title>
       <!-- Import TensorFlow.js -->
       <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
-
+      <link href="index.css" type="text/css" rel="stylesheet" >
+      <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-      <canvas id="myCanvas" width="300" height="500"  style="border:1px solid #000000;">
-      Your browser does not support the HTML5 canvas tag.
-      </canvas>
-
-
+      <div class="header">
+        Welcome To The PlayGround
+      </div>
+      <div class="text">
+        Here we are predicting co-ordinates using tensorflow by feeding random co-ordinates.
+        <br>
+        <b>Reload</b> to see it in Action!
+      </div>
+      <div class="Prediction_part">
+        <canvas id="myCanvas" width="400" height="600">
+        Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <div class="Predictions" id="prediction">
+        </div>
+      </div>
+      <div class="footer">
+        <a href="http://mohdummair.dx.am/">Made By Mohammad Ummair</a>
+      </div>
       <script src="index.js"></script>
+
     </body>
   </html>

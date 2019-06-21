@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+.header{
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  padding: 2%;
+  background-color: #0d1356;
+  color: white;
+}
+.text{
+  padding: 2%;
+  font-size: 20px;
+}
+#myCanvas{
+  display:inline-block;
+  margin: 2%;
+  text-align: center;
+  border:2px solid #75027f;
+  vertical-align:top;
+}
+.Predictions{
+  text-align: center;
+  padding: 4%;
+  display: inline-block;
+}
+.prediction_table {
+  border: 4px solid #710584;
+}
+table{
+
+  border-collapse: collapse;
+}
+th,td{
+  padding:2px;
+  border: 4px solid #710584;
+}
+.footer{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  padding: 2%;
+  background-color: #0d1356;
+  color: white;
+}
+.footer a{
+  color: white;
+}
